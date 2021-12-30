@@ -36,10 +36,19 @@ ROUND_3 = [
   [DANIEL],
 ]
 
+ROUND_4 = [
+  [ANDY, JENNY],
+  [DAVID, AMANDA],
+  [HARRISON, DCHO],
+  [DANIEL, SPENCER],
+  [RON],
+]
+
 ALL_ROUNDS = [
   ROUND_1,
   ROUND_2,
-  ROUND_3
+  ROUND_3,
+  ROUND_4,
 ]
 
 pairing_dictionary = EVERYONE.reduce(Hash.new { [] }) do |accum, person|
